@@ -148,3 +148,10 @@ footer nav .list-nav a {
 .grid-six {
   margin: 0 1rem;
 }
+
+.nav-links .nav li:hover {
+  border: 1px solid rgba(241, 233, 233, 0.87);
+  border-radius: 50%;
+  background: rgba(241, 233, 233, 0.87);
+  color: #000;
+}
