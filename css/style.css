@@ -85,6 +85,7 @@ ul li {
   height: 2rem;
   border-radius: 50%;
   text-align: center;
+  margin-top: 3px;
 }
 .circle a {
   color: #eee;
@@ -126,4 +127,24 @@ footer nav {
 footer nav .list-nav a {
   padding: 5px;
   color: rgba(0, 0, 0, 0.54);
+}
+
+.six {
+  width: 3px;
+  height: 3px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: auto auto auto;
+  margin-top: -1.6rem;
+}
+
+.six .items {
+  width: 4px;
+  height: 4px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.grid-six {
+  margin: 0 1rem;
 }
