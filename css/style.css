@@ -55,14 +55,21 @@ ul li {
   /*max-height: 100%;
   max-width: 100%; */
 }
-
+.btn:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.1);
+  color: #222;
+}
 .google-form-search input {
-  width: 32%;
+  width: 40%;
   padding: 0.6rem;
   border: 1px solid #e0d2d2;
   border-radius: 15px;
   margin: 0.5rem 0;
   font-size: 1rem;
+}
+.google-form-search input:hover {
+  box-shadow: 0px 5px 4px #ccc;
 }
 
 .google-formSearch--btn {
@@ -78,6 +85,7 @@ ul li {
   background-color: #f2f2f2;
   border-radius: 4px;
   width: 2rem;
+  font-size: small;
 }
 .circle {
   background-color: #000;
